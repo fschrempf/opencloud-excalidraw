@@ -1,0 +1,9 @@
+{
+  "extends": "@opencloud-eu/tsconfig",
+  "compilerOptions": {
+    "types": ["vitest/globals"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
