@@ -12,7 +12,7 @@ importers:
         specifier: ^0.18.0
         version: 0.18.0(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@opencloud-eu/extension-sdk':
-        specifier: ^7.0.0
+        specifier: ^7.3.0
         version: 7.4.0(node-fetch@3.3.2)(rollup@4.52.4)(typescript@5.9.3)(vite@7.1.9(@types/node@24.10.7)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.8.2))(vitest@4.0.17(@types/node@24.10.7)(happy-dom@20.0.0)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.8.2))(vue-tsc@3.1.1(typescript@5.9.3))(vue@3.5.22(typescript@5.9.3))
       react:
         specifier: ^19.0.0
@@ -25,19 +25,19 @@ importers:
         version: 2.6.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@opencloud-eu/eslint-config':
-        specifier: ^7.0.0
+        specifier: ^7.3.0
         version: 7.4.0(@typescript-eslint/eslint-plugin@8.68.0(@typescript-eslint/parser@8.68.0(eslint@9.37.0(jiti@2.7.0))(typescript@6.0.3))(eslint@9.37.0(jiti@2.7.0))(typescript@5.9.3))(eslint@9.37.0(jiti@2.7.0))(vue-eslint-parser@9.4.3(eslint@9.37.0(jiti@2.7.0)))
       '@opencloud-eu/prettier-config':
-        specifier: ^7.0.0
+        specifier: ^7.3.0
         version: 7.4.0(prettier@3.6.2)
       '@opencloud-eu/tsconfig':
-        specifier: ^7.0.0
+        specifier: ^7.3.0
         version: 7.4.0
       '@opencloud-eu/web-client':
-        specifier: ^7.0.0
+        specifier: ^7.3.0
         version: 7.4.0
       '@opencloud-eu/web-pkg':
-        specifier: ^7.0.0
+        specifier: ^7.3.0
         version: 7.4.0(@floating-ui/dom@1.7.6)(@tiptap/extension-code-block@3.30.5(@tiptap/core@3.30.5(@tiptap/pm@3.30.5))(@tiptap/pm@3.30.5))(@tiptap/extension-list@3.30.5(@tiptap/core@3.30.5(@tiptap/pm@3.30.5))(@tiptap/pm@3.30.5))(@tiptap/extensions@3.30.5(@tiptap/core@3.30.5(@tiptap/pm@3.30.5))(@tiptap/pm@3.30.5))(@vue/compiler-sfc@3.5.22)(@vue/devtools-api@8.2.1)(esbuild@0.25.10)(prosemirror-model@1.25.11)(prosemirror-state@1.4.4)(prosemirror-view@1.42.3)(rollup@4.52.4)(typescript@5.9.3)(vite@7.1.9(@types/node@24.10.7)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.8.2))(vue@3.5.22(typescript@5.9.3))
       '@types/node':
         specifier: ^24.0.0
@@ -3158,9 +3158,6 @@ packages:
   lodash.uniqby@4.5.0:
     resolution: {integrity: sha512-IRt7cfTtHy6f1aRVA5n7kT8rgN3N1nH6MOWLcHfpWG2SH19E3JksLK38MktLxZDhlAjCP9jpIXkOnRXlu6oByQ==}
 
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-
   lodash@4.18.1:
     resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
@@ -3179,10 +3176,6 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
-
-  luxon@3.7.1:
-    resolution: {integrity: sha512-RkRWjA926cTvz5rAb1BqyWkKbbjzCGchDUIKMCUvNi17j6f6j8uHGDV82Aqcqtzd+icoYpELmG3ksgGiFNNcNg==}
-    engines: {node: '>=12'}
 
   luxon@3.7.2:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
@@ -3593,9 +3586,6 @@ packages:
   postcss@8.5.6:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
-
-  preact@10.26.9:
-    resolution: {integrity: sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA==}
 
   preact@10.29.8:
     resolution: {integrity: sha512-ej2aVZ+vZ8WO7tvlQWRM9N63A0KzF9q4mWJfDUHgYaIofWY9hu74QdnQrjoPMmZi2/nZ5gN0bJCQF49xQqx09Q==}
@@ -5543,7 +5533,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
-      picomatch: 4.0.3
+      picomatch: 4.0.7
     optionalDependencies:
       rollup: 4.52.4
 
@@ -6211,7 +6201,7 @@ snapshots:
       debug: 4.4.3
       minimatch: 10.2.6
       semver: 7.8.5
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.17
       ts-api-utils: 2.5.0(typescript@6.0.3)
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -6227,7 +6217,7 @@ snapshots:
       debug: 4.4.3
       minimatch: 10.2.6
       semver: 7.8.5
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.17
       ts-api-utils: 2.5.0(typescript@6.0.3)
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -6291,11 +6281,11 @@ snapshots:
       '@transloadit/prettier-bytes': 0.3.5
       '@uppy/store-default': 5.0.0
       '@uppy/utils': 7.2.0
-      lodash: 4.17.21
+      lodash: 4.18.1
       mime-match: 1.0.2
       namespace-emitter: 2.0.1
       nanoid: 5.1.6
-      preact: 10.26.9
+      preact: 10.29.8
     transitivePeerDependencies:
       - preact-render-to-string
 
@@ -6581,6 +6571,10 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
+  acorn-jsx@5.3.2(acorn@8.18.0):
+    dependencies:
+      acorn: 8.18.0
+
   acorn-walk@8.3.4:
     dependencies:
       acorn: 8.15.0
@@ -6650,7 +6644,7 @@ snapshots:
   ast-walker-scope@0.9.0:
     dependencies:
       '@babel/parser': 7.29.8
-      '@babel/types': 7.29.0
+      '@babel/types': 7.29.8
       ast-kit: 2.2.0
 
   asynckit@0.4.0: {}
@@ -6839,7 +6833,7 @@ snapshots:
 
   cron-parser@4.9.0:
     dependencies:
-      luxon: 3.7.1
+      luxon: 3.7.2
 
   cropperjs@2.2.0:
     dependencies:
@@ -7272,8 +7266,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.18.0
+      acorn-jsx: 5.3.2(acorn@8.18.0)
       eslint-visitor-keys: 3.4.3
 
   esquery@1.6.0:
@@ -7808,8 +7802,6 @@ snapshots:
       lodash._baseiteratee: 4.7.0
       lodash._baseuniq: 4.6.0
 
-  lodash@4.17.21: {}
-
   lodash@4.18.1: {}
 
   long-timeout@0.1.1: {}
@@ -7827,8 +7819,6 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
-
-  luxon@3.7.1: {}
 
   luxon@3.7.2: {}
 
@@ -8311,8 +8301,6 @@ snapshots:
       nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
-
-  preact@10.26.9: {}
 
   preact@10.29.8: {}
 
@@ -8902,8 +8890,8 @@ snapshots:
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
       esquery: 1.6.0
-      lodash: 4.17.21
-      semver: 7.7.2
+      lodash: 4.18.1
+      semver: 7.8.5
     transitivePeerDependencies:
       - supports-color
 
